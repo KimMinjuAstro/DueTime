@@ -1,16 +1,24 @@
-# mission_app
+# 🕒 DueTime
 
-A new Flutter project.
+친구의 습관 형성을 도와주는 **사진 인증 투듀리스트** 앱입니다.
 
-## Getting Started
+## ✨ 주요 기능
+* **할 일 관리:** 미션 추가 및 삭제 (길게 누르기)
+* **사진 인증:** 카메라 촬영 또는 갤러리 사진으로 미션 완료
+* **진행도 확인:** 실시간으로 차오르는 게이지 바
+* **데이터 저장:** 앱을 꺼도 데이터가 유지됨 (Shared Preferences)
+* **자동 초기화:** 매일 자정이 지나면 인증 내역 리셋
 
-This project is a starting point for a Flutter application.
+## 🛠 기술 스택
+* **Framework:** Flutter (Dart)
+* **State Management:** Provider
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 실행 방법 (Setup)
+다른 컴퓨터에서 실행할 때 아래 명령어를 입력하세요.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+# 1. 라이브러리 설치 (필수)
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 2. 앱 실행
+flutter run
